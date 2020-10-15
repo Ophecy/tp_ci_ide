@@ -28,7 +28,7 @@ public class UserAccount {
      * @return the user unique ID
      */
     public int getId() {
-        return this.id;
+        return id;
     }
 
     /**
@@ -44,7 +44,7 @@ public class UserAccount {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         UserAccount that = (UserAccount) o;
-        return id == that.id;
+        return username == that.username;
     }
 
     @Override

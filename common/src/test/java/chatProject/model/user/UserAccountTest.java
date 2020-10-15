@@ -23,7 +23,7 @@ public class UserAccountTest {
         final UserAccount user2 = new UserAccount(2, "MyUser");
 
         assertEquals("2 accounts are equal if they have the same username",
-                user1.getUsername(), user2.getUsername());
+                user1, user2);
     }
 
     @Test
