@@ -209,7 +209,6 @@ public class ChatServer<T> implements UserAlgo, ChatroomAlgo<T>, MessageAlgo<T>,
             .map(UserInfo::getAccount)
             .filter(account -> account.getUsername().equals(userName))
             .findAny();
-        */
     }
 
     /**
