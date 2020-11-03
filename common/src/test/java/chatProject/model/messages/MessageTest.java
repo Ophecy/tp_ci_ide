@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class MessageTest {
 
     @Test
-    public void getId() {
+    public void testGetId() {
         int id = 42;
         final Message<Object> message = new Message<>(id, null, null);
 
@@ -16,7 +16,7 @@ public class MessageTest {
     }
 
     @Test
-    public void getContent() {
+    public void testGetContent() {
         String content = "TEST";
         final Message<String> message = new Message<>(0, null, content);
 
